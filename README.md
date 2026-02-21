@@ -12,7 +12,17 @@
 
 ---
 
-## Features & Components
+## Sections & Components
+
+- Header and Navigation
+- Hero
+- Featured-in
+- How app works
+- Meals and Diets
+- Testimonials and Gallery
+- Pricing + Features
+- CTA (call to action)
+- Footer
 
 ---
 
