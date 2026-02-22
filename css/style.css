@@ -25,35 +25,35 @@
     --no-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 
     /* SPACING SCALE */
-    --space-1: 2px;
-    --space-2: 4px;
-    --space-3: 8px;
-    --space-4: 12px;
-    --space-5: 16px;
-    --space-6: 24px;
-    --space-7: 32px;
-    --space-8: 48px;
-    --space-9: 64px;
-    --space-10: 80px;
-    --space-11: 96px;
-    --space-12: 128px;
+    --space-1: 0.2rem;
+    --space-2: 0.4rem;
+    --space-3: 0.8rem;
+    --space-4: 1.2rem;
+    --space-5: 1.6rem;
+    --space-6: 2.4rem;
+    --space-7: 3.2rem;
+    --space-8: 4.8rem;
+    --space-9: 6.4rem;
+    --space-10: 8rem;
+    --space-11: 9.6rem;
+    --space-12: 12.8rem;
 
     /* FONT SIZE SCALE */
-    --fs-1: 10px;
-    --fs-2: 12px;
-    --fs-3: 14px;
-    --fs-4: 16px;
-    --fs-5: 18px;
-    --fs-6: 20px;
-    --fs-7: 24px;
-    --fs-8: 30px;
-    --fs-9: 36px;
-    --fs-10: 44px;
-    --fs-11: 52px;
-    --fs-12: 62px;
-    --fs-13: 74px;
-    --fs-14: 86px;
-    --fs-15: 98px;
+    --fs-1: 1rem;
+    --fs-2: 1.2rem;
+    --fs-3: 1.4rem;
+    --fs-4: 1.6rem;
+    --fs-5: 1.8rem;
+    --fs-6: 2rem;
+    --fs-7: 2.4rem;
+    --fs-8: 3rem;
+    --fs-9: 3.6rem;
+    --fs-10: 4.4rem;
+    --fs-11: 5.2rem;
+    --fs-12: 6.2rem;
+    --fs-13: 7.4rem;
+    --fs-14: 8.6rem;
+    --fs-15: 9.8rem;
 }
 
 body {
@@ -62,8 +62,18 @@ body {
     color: var(--color-text);
     min-height: 100vh;
 }
-
+html {
+    font-size: 62.5%;
+}
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.test {
+    background-color: red;
+    padding: 100px;
+    color: white;
+    max-width: 50rem;
+    font-size: 3.2rem;
 }
