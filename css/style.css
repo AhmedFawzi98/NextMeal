@@ -190,6 +190,7 @@ a.nav-cta:active {
     gap: var(--space-8);
     padding: var(--space-11) 0;
     max-width: 130rem;
+    margin: 0 auto !important;
     justify-content: space-between;
 }
 
