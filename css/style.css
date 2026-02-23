@@ -79,9 +79,22 @@ body {
     color: var(--color-text);
     min-height: 100vh;
 }
+
 html {
     font-size: 62.5%;
 }
+
+.grid {
+    display: grid;
+    gap: var(--space-11);
+}
+.grid-2-cols {
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3-cols {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .container {
     width: 80% !important;
     margin: 0 auto !important;
@@ -236,4 +249,25 @@ a.nav-cta:active {
 .customers-text strong {
     color: var(--color-primary-shade-1);
     font-weight: 700;
+}
+
+/*HOW IT WORKS SECTION*/
+.section-how {
+    background-color: orangered;
+}
+.section-how div {
+    font-size: 40px;
+    height: 100px;
+}
+.section-how div:nth-child(1) {
+    background-color: orangered;
+}
+.section-how div:nth-child(2) {
+    background-color: blue;
+}
+.section-how div:nth-child(3) {
+    background-color: yellow;
+}
+.section-how div:nth-child(4) {
+    background-color: green;
 }
