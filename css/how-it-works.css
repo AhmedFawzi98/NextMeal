@@ -1,0 +1,55 @@
+.section-how {
+    padding: var(--space-5);
+}
+
+.how-content {
+    margin-top: var(--space-10);
+}
+
+.step-text {
+    align-self: center;
+}
+
+.step-title {
+    font-size: var(--fs-10);
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    margin-bottom: var(--space-2);
+}
+.step-description {
+    font-size: var(--fs-6);
+    color: var(--color-text-muted);
+    line-height: 1.5;
+}
+
+.step-img-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.step-img {
+    width: 30%;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+    content: "";
+    display: block;
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: var(--color-accent-tint-3);
+    border-radius: var(--radius-round);
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.step-img-box::after {
+    width: 40%;
+    padding-bottom: 40%;
+    z-index: -1;
+    background-color: var(--color-accent-tint-2);
+}

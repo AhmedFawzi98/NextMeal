@@ -1,0 +1,29 @@
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--space-6);
+    height: 8rem;
+}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: var(--space-6);
+}
+.header-nav-link:link,
+.header-nav-link:visited {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: var(--fs-5);
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+.header-nav-link:hover,
+.header-nav-link:active {
+    color: var(--color-primary);
+}
+.header-logo {
+    width: 19.2rem;
+    height: 4.97rem;
+}
