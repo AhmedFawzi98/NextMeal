@@ -1,0 +1,46 @@
+.section-meals {
+    margin-bottom: var(--space-10);
+    padding: var(--space-4);
+}
+.meals {
+}
+
+.meals-content {
+    margin-top: var(--space-8);
+}
+
+.meals-count {
+    color: var(--color-primary);
+}
+
+.meal-img {
+    width: 100%;
+}
+
+.meal-facts-list,
+.meal-main-info {
+    padding-left: var(--space-4);
+}
+.meal-name {
+    font-size: var(--fs-7);
+}
+.meal-name {
+    margin-top: var(--space-3);
+    font-weight: 700;
+}
+
+.meal-facts-list,
+.diets-list {
+    list-style-type: none;
+    font-size: var(--fs-5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+}
+
+.diet,
+.meal-fact {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
