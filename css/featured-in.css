@@ -1,0 +1,29 @@
+.section-featured-in {
+    margin-bottom: var(--space-10);
+    padding: var(--space-4);
+}
+.featured-in {
+}
+.featured-in-logos-list {
+    display: flex;
+    gap: var(--space-8);
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.featured-in-logos-list img {
+    width: 16.9rem;
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+.featured-in-text {
+    font-size: var(--fs-3);
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: var(--space-6);
+    font-weight: 500;
+}

@@ -1,6 +1,6 @@
 .section-hero {
     padding: var(--space-6) 0;
-    margin-bottom: var(--space-15);
+    margin-bottom: var(--space-7);
 }
 .hero {
     display: flex;
@@ -23,7 +23,11 @@
     width: 50%;
 }
 
-.hero-content p {
+.hero-heading {
+    margin-bottom: var(--space-6);
+}
+
+.hero-text {
     line-height: 1.5;
     font-size: var(--fs-7);
     color: var(--color-text-muted);
@@ -36,6 +40,31 @@
     font-size: var(--fs-7);
     margin-bottom: var(--space-7);
     margin-top: var(--space-6);
+}
+
+.learn-more:link,
+.learn-more:visited {
+    color: var(--color-text);
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.learn-more::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.4rem;
+    height: 0.2rem;
+    width: 100%;
+    background-color: var(--color-primary);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.learn-more:hover::after {
+    transform: scaleX(1);
 }
 
 .customers {

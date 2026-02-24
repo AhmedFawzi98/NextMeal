@@ -20,7 +20,7 @@
     --color-bg: #f8f0e8;
     --color-text: #302121;
     --color-text-muted: #6b5a5a;
-    --color-text-light: #b7b7b7;
+    --color-text-light: #959595;
     --color-text-on-primary: #ffffff;
 
     /*SHADOWS*/
@@ -106,7 +106,6 @@ html {
 .heading-secondary,
 .heading-tertiary {
     font-weight: 700;
-    margin-bottom: var(--space-6);
 }
 
 .heading-primary {
@@ -120,6 +119,14 @@ html {
 }
 .heading-tertiary {
     font-size: var(--fs-8);
+}
+
+.section-name {
+    text-transform: uppercase;
+    font-size: var(--fs-5);
+    color: var(--color-primary);
+    font-weight: 500;
+    margin-bottom: var(--space-3);
 }
 
 .btn {
