@@ -19,7 +19,8 @@
 - Featured-in
 - How app works
 - Meals and Diets
-- Testimonials and Gallery
+- Testimonials
+- Gallery
 - Pricing + Features
 - CTA (call to action)
 - Footer

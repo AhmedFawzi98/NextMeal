@@ -1,0 +1,24 @@
+.section-testemonials {
+    margin-bottom: var(--space-10);
+    padding: var(--space-4);
+}
+
+.testemonials-content {
+    margin-top: var(--space-8);
+}
+.testemonial-img {
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: var(--radius-round);
+}
+
+.testemonial-text {
+    font-size: var(--fs-5);
+    line-height: 1.8;
+}
+
+.testemonial-author {
+    text-transform: capitalize;
+    font-size: var(--fs-4);
+    color: var(--color-text-light);
+}

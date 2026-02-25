@@ -32,6 +32,7 @@
     --no-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     --box-shadow-small: 0 0 2px rgba(0, 0, 0, 0.8);
     --box-shadow-medium: 0 8px 8px rgba(0, 0, 0, 0.07);
+    --box-shadow-medium-heavy: 0 8px 8px rgba(0, 0, 0, 0.2);
     --box-shadow-very-large: 0 20px 40px rgba(0, 0, 0, 0.2);
     --box-shadow-small-primary-shade-2: 0 0 8px #7811189a;
     --box-shadow-inside-primary: inset 0 0 0 2px var(--color-primary);
@@ -99,7 +100,7 @@ strong {
 }
 .grid {
     display: grid;
-    row-gap: var(--space-11);
+    row-gap: var(--space-10);
     column-gap: var(--space-8);
 }
 .grid-2-cols {
