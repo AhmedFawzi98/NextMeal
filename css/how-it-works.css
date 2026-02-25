@@ -1,10 +1,10 @@
 .section-how {
     padding: var(--space-5);
-    margin-bottom: var(--space-10);
+    margin-bottom: var(--space-11);
 }
 
 .how-content {
-    margin-top: var(--space-8);
+    margin-top: var(--space-9);
 }
 
 .step-text {

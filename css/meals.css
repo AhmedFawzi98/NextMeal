@@ -1,12 +1,13 @@
 .section-meals {
-    margin-bottom: var(--space-10);
+    margin-bottom: var(--space-11);
     padding: var(--space-4);
 }
-.meals {
-}
 
+.meals h2 {
+    text-align: center;
+}
 .meals-content {
-    margin-top: var(--space-8);
+    margin-top: var(--space-9);
 }
 
 .meals-count {

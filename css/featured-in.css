@@ -1,9 +1,8 @@
 .section-featured-in {
-    margin-bottom: var(--space-10);
+    margin-bottom: var(--space-11);
     padding: var(--space-4);
 }
-.featured-in {
-}
+
 .featured-in-logos-list {
     display: flex;
     gap: var(--space-8);

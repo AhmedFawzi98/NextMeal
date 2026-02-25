@@ -1,10 +1,10 @@
 .section-testemonials {
-    margin-bottom: var(--space-10);
+    margin-bottom: var(--space-11);
     padding: var(--space-4);
 }
 
 .testemonials-content {
-    margin-top: var(--space-8);
+    margin-top: var(--space-9);
 }
 .testemonial-img {
     width: 6.4rem;
@@ -21,4 +21,11 @@
     text-transform: capitalize;
     font-size: var(--fs-4);
     color: var(--color-text-light);
+}
+
+.testemonial {
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow-medium-all-around);
+    border-radius: var(--radius-4);
+    padding: var(--space-4);
 }
