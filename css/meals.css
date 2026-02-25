@@ -39,9 +39,4 @@
     gap: var(--space-6);
 }
 
-.diet,
-.meal-fact {
-    display: flex;
-    align-items: center;
-    gap: var(--space-4);
-}
+

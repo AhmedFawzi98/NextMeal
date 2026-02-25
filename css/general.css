@@ -6,17 +6,18 @@
 :root {
     /* COLORS */
     --color-primary: #ef2130;
-    --color-primary-shade-1: #bf1a26;
+    --color-primary-shade-1: #c61c27;
     --color-primary-shade-2: #781118;
     --color-primary-tint-1: #f13745;
     --color-primary-tint-2: #f57a83;
+    --color-primary-tint-3: #f2c0c3;
 
     --color-accent: #e6c89c;
     --color-accent-shade-1: #c4a979;
     --color-accent-shade-2: #a48a63;
     --color-accent-tint-1: #edd6b5;
     --color-accent-tint-2: #f2e1c9;
-    --color-accent-tint-3: #f5e9d7;
+    --color-accent-tint-3: #f5ecdf;
 
     --color-bg: #f8f0e8;
 
@@ -26,7 +27,7 @@
 
     --color-text: #302121;
     --color-text-muted: #6b5a5a;
-    --color-text-light: #737272;
+    --color-text-light: #787777;
     --color-text-on-primary: #ffffff;
 
     /*SHADOWS*/
@@ -111,7 +112,9 @@ strong {
 .grid-3-cols {
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+.grid-4-cols {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .container {
     max-width: 120rem !important;
     margin: 0 auto !important;
@@ -123,6 +126,11 @@ strong {
     gap: var(--space-6);
     border-radius: var(--radius-4);
     overflow: hidden;
+}
+
+.card-center {
+    justify-content: center;
+    align-items: center;
 }
 
 .hover-lift {
@@ -169,6 +177,11 @@ strong {
     stroke: var(--color-primary);
 }
 
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -200,8 +213,9 @@ strong {
     display: inline-block;
     text-decoration: none;
     font-weight: 600;
+    border: 0;
 }
-
+.btn-cta-primary,
 .btn-cta-primary:link,
 .btn-cta-primary:visited {
     background-color: var(--color-primary);
@@ -213,6 +227,7 @@ strong {
 
 a.nav-cta:link,
 a.nav-cta:visited,
+.btn-cta-secondar,
 .btn-cta-secondary:link,
 .btn-cta-secondary:visited {
     display: inline-block;
@@ -227,6 +242,7 @@ a.nav-cta:visited {
     padding: var(--space-4) var(--space-6);
 }
 
+.btn-cta-secondary,
 .btn-cta-secondary:link,
 .btn-cta-secondary:visited {
     padding: var(--space-5) var(--space-9);

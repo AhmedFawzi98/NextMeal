@@ -1,0 +1,81 @@
+.section-pricing-and-features {
+    margin-bottom: var(--space-11);
+    padding: var(--space-4);
+}
+.pricing {
+    margin-bottom: var(--space-8);
+}
+.pricing-packages {
+    display: flex;
+    justify-content: space-evenly;
+    gap: var(--space-12);
+    margin: var(--space-9) 0 var(--space-7) 0;
+}
+.pricing-package {
+    padding: var(--space-6);
+    border: 2px solid var(--color-primary-tint-3);
+    position: relative;
+}
+
+.pricing-package:last-child {
+    background-color: var(--color-accent-tint-3);
+}
+
+.pricing-package:last-child::before {
+    content: "BEST VALUE";
+    display: block;
+    padding: 1rem 3rem;
+    position: absolute;
+    right: -14%;
+    top: 4%;
+    transform: rotate(45deg);
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--fs-3);
+    color: var(--color-white);
+    background-color: var(--color-accent-shade-1);
+}
+.pricing-package-name {
+    font-size: var(--fs-8);
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+}
+
+.pricing-package-price-amount {
+    font-size: var(--fs-12);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: var(--space-2);
+}
+.pricing-package-currency {
+    font-size: var(--fs-9);
+    margin-right: var(--space-2);
+}
+.pricing-package-price-description {
+    font-size: var(--fs-4);
+    color: var(--color-text-light);
+}
+
+.pricing-package-perks-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin: var(--space-3) 0;
+}
+.pricing-package-perk {
+    font-size: var(--fs-5);
+    color: var(--color-text-muted);
+}
+
+.pricing-extra-info {
+    text-align: center;
+    font-size: var(--fs-4);
+}
+.pricing-package a {
+    font-size: var(--fs-6);
+}
+
+.features {
+}
