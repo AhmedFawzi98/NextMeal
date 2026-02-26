@@ -3,7 +3,7 @@
     padding: var(--space-4);
 }
 .pricing {
-    margin-bottom: var(--space-8);
+    margin-bottom: var(--space-10);
 }
 .pricing-packages {
     display: flex;
@@ -15,6 +15,7 @@
     padding: var(--space-6);
     border: 2px solid var(--color-primary-tint-3);
     position: relative;
+    background-color: var(--color-white);
 }
 
 .pricing-package:last-child {
@@ -40,6 +41,7 @@
     color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: -0.05em;
+    font-weight: 600;
 }
 
 .pricing-package-price-amount {
@@ -78,4 +80,26 @@
 }
 
 .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--space-4);
+}
+.feature {
+    background-color: var(--color-white);
+    padding: var(--space-4);
+    box-shadow: var(--box-shadow-medium-all-around);
+}
+.feature-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.feature-title {
+    font-weight: 600;
+    font-size: var(--fs-7);
+}
+.feature-description {
+    font-size: var(--fs-5);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin-top: calc(-1 * var(--space-4));
 }
