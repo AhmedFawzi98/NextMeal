@@ -33,8 +33,6 @@ A landing page that showcases a clean, component-driven UI for NextMeal app (foo
 - Focused on native CSS capabilities instead of abstraction layers.
 - Emphasis on understanding layout systems rather than relying on UI libraries.
 
----
-
 ### Layout & Structure
 
 - Layout architecture: A combination of reusable container classes and lightweight layout utilities ensures consistent sizing and spacing and style theme, while Flexbox and Grid power responsive, scalable, and maintainable layout structures.
@@ -75,4 +73,3 @@ A landing page that showcases a clean, component-driven UI for NextMeal app (foo
 - No external UI libraries, ensuring fast load times and reduced dependencies.
 - Hardware-accelerated transitions for smooth micro-interactions.
 
----
