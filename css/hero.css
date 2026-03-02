@@ -12,15 +12,13 @@
     margin: 0 auto !important;
 }
 
+.hero-content,
 .hero-img-container {
-    width: 50%;
-}
-.hero-img {
-    width: 100%;
+    flex: 1;
 }
 
-.hero-content {
-    width: 50%;
+.hero-img {
+    width: 100%;
 }
 
 .hero-heading {
@@ -91,5 +89,3 @@
     color: var(--color-primary-shade-1);
     font-weight: 700;
 }
-
-

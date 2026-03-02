@@ -95,7 +95,8 @@
 }
 .feature-title {
     font-weight: 600;
-    font-size: var(--fs-7);
+    font-size: var(--fs-6);
+    text-transform: capitalize;
 }
 .feature-description {
     font-size: var(--fs-5);
