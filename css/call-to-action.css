@@ -10,11 +10,11 @@
     overflow: hidden;
     background-image: linear-gradient(
         to right bottom,
-        rgba(var(--color-primary-tint-3-rgb), 0.6),
-        rgba(var(--color-primary-tint-4-rgb), 0.6)
+        rgba(var(--color-primary-tint-3-rgb), 0.4),
+        rgba(var(--color-primary-tint-4-rgb), 0.4)
     );
 
-    box-shadow: var(--box-shadow-medium);
+    box-shadow: var(--box-shadow-medium-all-around);
 }
 
 .cta-text-box {
@@ -46,8 +46,8 @@
     background-image:
         linear-gradient(
             to right bottom,
-            rgba(var(--color-primary-tint-3-rgb), 0.3),
-            rgba(var(--color-primary-tint-4-rgb), 0.3)
+            rgba(var(--color-primary-tint-3-rgb), 0.25),
+            rgba(var(--color-primary-tint-4-rgb), 0.25)
         ),
         url(../img/call-to-action/cta-img.jpg);
     background-size: cover;

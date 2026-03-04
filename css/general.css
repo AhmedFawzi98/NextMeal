@@ -7,19 +7,19 @@
     --color-primary-shade-3: #3a090c;
     --color-primary-tint-1: #f13745;
     --color-primary-tint-2: #f57a83;
-    --color-primary-tint-3: #edb6ba;
-    --color-primary-tint-3-rgb: 237, 182, 186;
-    --color-primary-tint-4: #f1cfd1;
-    --color-primary-tint-4-rgb: 241, 207, 209;
+    --color-primary-tint-3: #ecc1c4;
+    --color-primary-tint-3-rgb: 236, 193, 196;
+    --color-primary-tint-4: #f0ddde;
+    --color-primary-tint-4-rgb: 240, 221, 222;
 
     --color-accent: #e6c89c;
     --color-accent-shade-1: #c4a979;
     --color-accent-shade-2: #a48a63;
     --color-accent-tint-1: #edd6b5;
     --color-accent-tint-2: #f2e1c9;
-    --color-accent-tint-3: #f3ede3;
+    --color-accent-tint-3: #f3eee5;
 
-    --color-bg: #f8f0e8;
+    --color-bg: #f9f7f5;
 
     --color-white: #ffffff;
     --color-green: #51cf66;
