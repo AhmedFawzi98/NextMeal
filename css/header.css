@@ -15,7 +15,7 @@
 .header-nav-link:link,
 .header-nav-link:visited {
     color: var(--color-text);
-    font-size: var(--fs-5);
+    font-size: var(--fs-6);
     font-weight: 700;
 }
 .header-nav-link:hover,
