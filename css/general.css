@@ -121,6 +121,14 @@ html {
 strong {
     font-weight: 500;
 }
+ul {
+    list-style-type: none;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
 .hidden {
     display: none;
@@ -132,10 +140,10 @@ strong {
     column-gap: var(--space-8);
 }
 .grid-2-cols {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
 }
 .grid-3-cols {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .container {

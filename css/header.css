@@ -14,17 +14,15 @@
 
 .header-nav-link:link,
 .header-nav-link:visited {
-    text-decoration: none;
     color: var(--color-text);
     font-size: var(--fs-5);
     font-weight: 700;
-    transition: color 0.3s ease;
 }
 .header-nav-link:hover,
 .header-nav-link:active {
     color: var(--color-primary);
 }
-.header-logo {
+.header-logo-img {
     width: 19.2rem;
     height: 4.97rem;
 }
