@@ -27,6 +27,30 @@
     height: 4.97rem;
 }
 
+.toggle-hamburger {
+    display: none;
+}
+
+.hamburger-icon,
+.hamburger-icon-close {
+    width: 4.8rem;
+    height: 4.8rem;
+    stroke: var(--color-text);
+}
+
+.hamburger-icon {
+    display: block;
+}
+.hamburger-icon-close {
+    display: none;
+}
+.nav-open .hamburger-icon {
+    display: none;
+}
+
+.nav-open .hamburger-icon-close {
+    display: inline;
+}
 @media (max-width: 84rem) {
     .header-nav-list {
         gap: var(--space-6);
@@ -46,5 +70,48 @@
     .header-nav-link:link,
     .header-nav-link:visited {
         font-size: var(--fs-5);
+    }
+    .toggle-hamburger {
+        display: inline-block;
+        z-index: 1000;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+    }
+    .header-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--color-white);
+        position: fixed;
+        inset: 0;
+        transform: translateX(100%);
+        opacity: 0;
+        transition:
+            opacity 0.5s ease,
+            transform 0.5s ease,
+            visibility 0s linear 0.5s;
+        pointer-events: none;
+        visibility: hidden;
+        z-index: 1000;
+    }
+    .nav-open .header-nav {
+        opacity: 100%;
+        transform: translateX(0%);
+        pointer-events: auto;
+        visibility: visible;
+        transition:
+            transform 0.5s ease,
+            opacity 0.5s ease;
+    }
+    .header-nav-list {
+        z-index: 1000;
+        flex-direction: column;
+        gap: var(--space-8);
+    }
+    .header-nav-link:link,
+    .header-nav-link:visited {
+        font-size: var(--fs-10);
     }
 }

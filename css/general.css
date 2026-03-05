@@ -112,6 +112,11 @@ button {
     font: inherit;
     color: inherit;
     border: none;
+    background: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 body {
@@ -119,10 +124,12 @@ body {
     font-family: "Rubik", sans-serif;
     color: var(--color-text);
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 strong {
     font-weight: 500;
@@ -134,10 +141,6 @@ a:link,
 a:visited {
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.hidden {
-    display: none;
 }
 
 .grid {
