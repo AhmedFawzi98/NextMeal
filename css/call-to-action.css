@@ -76,3 +76,43 @@
 .cta-form .btn {
     font-size: var(--fs-7);
 }
+
+@media (max-width: 84em) {
+    .section-cta {
+        padding: var(--space-4) var(--space-6);
+    }
+}
+
+@media (max-width: 75em) {
+    .cta-text-box {
+        padding: var(--space-6) var(--space-6) var(--space-8) var(--space-6);
+    }
+    .cta-form {
+        column-gap: var(--space-5);
+        row-gap: var(--space-7);
+    }
+    .cta-form .form-control {
+        font-size: var(--fs-4);
+    }
+}
+
+@media (max-width: 60em) {
+    .cta-form {
+        grid-template-columns: 1fr;
+    }
+    .cta-text-box {
+        flex: 1 1 50%;
+    }
+    .cta-image-box {
+        flex: 1 1 50%;
+    }
+    .cta-text-title {
+        font-size: var(--fs-9);
+    }
+    .cta-text-description {
+        font-size: var(--fs-5);
+    }
+    .cta-form .form-actions {
+        justify-content: center;
+    }
+}

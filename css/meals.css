@@ -39,4 +39,8 @@
     gap: var(--space-6);
 }
 
-
+@media (max-width: 84em) {
+    .section-meals {
+        padding: var(--space-4) var(--space-6);
+    }
+}

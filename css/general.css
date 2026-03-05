@@ -87,6 +87,12 @@
     --radius-5: 1.6rem;
     --radius-6: 2.4rem;
     --radius-round: 50%;
+
+    /* media queries Breakpoints (values in px calcualted based on 16px font size for browser)
+        84em (1344px) 
+        75em (1200px) 
+        60em (960px) 
+    */
 }
 
 * {
@@ -251,7 +257,7 @@ a:visited {
 
 a.nav-cta:link,
 a.nav-cta:visited,
-.btn-cta-secondar,
+.btn-cta-secondary,
 .btn-cta-secondary:link,
 .btn-cta-secondary:visited {
     display: inline-block;
@@ -368,4 +374,35 @@ a.nav-cta:active,
     display: flex;
     align-items: center;
     gap: var(--space-4);
+}
+
+@media (max-width: 84em) {
+    .heading-primary {
+        font-size: var(--fs-10);
+    }
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 75em) {
+    .heading-secondary {
+        font-size: var(--fs-8);
+    }
+    .heading-tertiary {
+        font-size: var(--fs-7);
+    }
+    .grid {
+        column-gap: var(--space-7);
+        row-gap: var(--space-8);
+    }
+}
+
+@media (max-width: 60em) {
+    html {
+        font-size: 50%;
+    }
 }

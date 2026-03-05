@@ -1,5 +1,5 @@
 .section-footer {
-    margin-top: var(--space-15);
+    margin-top: var(--space-13);
     margin-bottom: var(--space-4);
 }
 
@@ -73,4 +73,10 @@
 
 .social-icon {
     fill: var(--color-text-light);
+}
+
+@media (max-width: 84em) {
+    .section-footer {
+        padding: var(--space-4) var(--space-6);
+    }
 }

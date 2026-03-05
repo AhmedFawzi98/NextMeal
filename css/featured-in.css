@@ -5,7 +5,6 @@
 
 .featured-in-logos-list {
     display: flex;
-    gap: var(--space-8);
     justify-content: space-evenly;
     list-style-type: none;
 }
@@ -25,4 +24,14 @@
     text-align: center;
     margin-bottom: var(--space-6);
     font-weight: 500;
+}
+
+@media (max-width: 60em) {
+    .featured-in-logos-list img {
+        width: 8rem;
+        height: 2.4rem;
+    }
+    .featured-in-text {
+        font-size: var(--fs-2);
+    }
 }

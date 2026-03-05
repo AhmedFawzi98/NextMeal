@@ -104,3 +104,17 @@
     line-height: 1.6;
     margin-top: calc(-1 * var(--space-4));
 }
+
+@media (max-width: 84em) {
+    .section-pricing-and-features {
+        padding: var(--space-4) var(--space-6);
+    }
+}
+
+@media (max-width: 60em) {
+    .features {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-4);
+        justify-items: center;
+    }
+}

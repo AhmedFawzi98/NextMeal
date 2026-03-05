@@ -15,12 +15,13 @@
     font-size: var(--fs-10);
     color: var(--color-text-light);
     text-transform: uppercase;
-    margin-bottom: var(--space-2);
+    margin-bottom: var(--space-4);
 }
 .step-description {
     font-size: var(--fs-6);
     color: var(--color-text-muted);
     line-height: 1.5;
+    margin-top: var(--space-3);
 }
 
 .step-img-box {
@@ -53,4 +54,18 @@
     padding-bottom: 40%;
     z-index: -1;
     background-color: var(--color-accent-tint-2);
+}
+
+@media (max-width: 84em) {
+    .section-how {
+        padding: var(--space-4) var(--space-6);
+    }
+}
+@media (max-width: 75em) {
+    .step-title {
+        font-size: var(--fs-9);
+    }
+    .step-description {
+        font-size: var(--fs-4);
+    }
 }
