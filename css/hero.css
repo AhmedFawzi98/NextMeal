@@ -142,3 +142,21 @@
         text-align: left;
     }
 }
+
+@media (max-width: 34em) {
+    .section-hero {
+        margin-bottom: var(--space-8);
+    }
+    .hero-actions {
+        flex-direction: column;
+    }
+    .hero-actions {
+        font-size: var(--fs-8);
+    }
+    .hero-img {
+        width: 70%;
+    }
+    .customers-text {
+        font-size: var(--fs-3);
+    }
+}

@@ -116,3 +116,16 @@
         justify-content: center;
     }
 }
+@media (max-width: 34em) {
+    .cta {
+        flex-direction: column;
+    }
+    .cta-image-box,
+    .cta-text-box {
+        flex: 1 1 auto;
+    }
+    .cta-image-box {
+        height: 38.4rem;
+        order: -1;
+    }
+}

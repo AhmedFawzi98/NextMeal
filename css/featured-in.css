@@ -35,3 +35,9 @@
         font-size: var(--fs-2);
     }
 }
+@media (max-width: 34em) {
+    .featured-in-logos-list img {
+        width: 6.4rem;
+        height: 2rem;
+    }
+}

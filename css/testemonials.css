@@ -35,3 +35,15 @@
         padding: var(--space-4) var(--space-6);
     }
 }
+
+@media (max-width: 44em) {
+    .testemonials-content {
+        margin-top: var(--space-8);
+    }
+}
+
+@media (max-width: 34em) {
+    .testemonials-content {
+        grid-template-columns: 1fr;
+    }
+}

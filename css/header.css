@@ -112,6 +112,6 @@
     }
     .header-nav-link:link,
     .header-nav-link:visited {
-        font-size: var(--fs-10);
+        font-size: var(--fs-8);
     }
 }

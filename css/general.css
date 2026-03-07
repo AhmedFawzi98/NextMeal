@@ -92,6 +92,8 @@
         84em (1344px) 
         75em (1200px) 
         60em (960px) 
+        44em (704px)
+        34em (544)
     */
 }
 
@@ -407,5 +409,17 @@ a.nav-cta:active,
 @media (max-width: 60em) {
     html {
         font-size: 50%;
+    }
+}
+
+@media (max-width: 44em) {
+    html {
+        font-size: 43.75%;
+    }
+}
+
+@media (max-width: 34em) {
+    html {
+        font-size: 37.5%;
     }
 }

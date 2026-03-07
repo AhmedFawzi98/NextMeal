@@ -38,17 +38,18 @@
 .step-img-box::after {
     content: "";
     display: block;
-    width: 60%;
-    padding-bottom: 60%;
-    background-color: var(--color-accent-tint-3);
     border-radius: var(--radius-round);
     position: absolute;
-    z-index: -2;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-
+.step-img-box::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: var(--color-accent-tint-3);
+    z-index: -2;
+}
 .step-img-box::after {
     width: 40%;
     padding-bottom: 40%;
@@ -67,5 +68,17 @@
     }
     .step-description {
         font-size: var(--fs-4);
+    }
+}
+
+@media (max-width: 34em) {
+    .how-content {
+        grid-template-columns: 1fr;
+    }
+    .step-img-box:nth-child(3) {
+        grid-row: 4;
+    }
+    .step-img-box {
+        transform: translateY(calc(-1 * var(--space-3)));
     }
 }

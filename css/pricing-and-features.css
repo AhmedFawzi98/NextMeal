@@ -3,7 +3,7 @@
     padding: var(--space-4);
 }
 .pricing {
-    margin-bottom: var(--space-10);
+    margin-bottom: var(--space-8);
 }
 .pricing-packages {
     display: flex;
@@ -27,8 +27,8 @@
     display: block;
     padding: 1rem 3rem;
     position: absolute;
-    right: -14%;
-    top: 4%;
+    right: -3.5rem;
+    top: 1.5rem;
     transform: rotate(45deg);
     text-align: center;
     font-weight: 600;
@@ -116,5 +116,32 @@
         grid-template-columns: 1fr 1fr;
         gap: var(--space-4);
         justify-items: center;
+    }
+}
+
+@media (max-width: 44em) {
+    .pricing-packages {
+        margin: var(--space-8) 0 var(--space-7) 0;
+    }
+}
+@media (max-width: 34em) {
+    .pricing-packages {
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+        gap: var(--space-8);
+    }
+    .pricing-package {
+        padding: var(--space-4) var(--space-2);
+        width: 50%;
+    }
+
+    .pricing-package:last-child::before {
+        font-size: var(--fs-2);
+        padding: 0.8rem 2.8rem;
+    }
+    .pricing-package .btn-cta-primary {
+        font-size: var(--fs-7);
+        padding: var(--space-5) var(--space-8);
     }
 }
