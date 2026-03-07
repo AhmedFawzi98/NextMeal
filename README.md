@@ -73,3 +73,6 @@ A landing page that showcases a clean, component-driven UI for NextMeal app (foo
 - No external UI libraries, ensuring fast load times and reduced dependencies.
 - Hardware-accelerated transitions for smooth micro-interactions.
 
+### JavaScript
+
+JavaScript is used only for a few small interface enhancements: smooth scrolling for anchor links, a password visibility toggle for the form input, basic hamburger menu interactions on smaller screens, and automatic updating of the footer copyright year.
