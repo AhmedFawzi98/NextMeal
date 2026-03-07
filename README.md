@@ -52,8 +52,8 @@ A landing page that showcases a clean, component-driven UI for NextMeal app (foo
 ### Responsiveness
 
 - Media queries: Styles are enhanced with media queries at logical breakpoints. Breakpoints are defined using rem-based token values to keep scaling consistent.
-- Flexible layout techniques: The design relies on Flexbox for 1D layout and CSS Grid for complex two-dimensional arrangements and columns distribution, enabling graceful reflow across viewport sizes.
-- rem units for responsiveness: All spacing and typography and lengths use `rem` units so the UI responds to changes in the root font-size and user browser settings.
+- Flexible layout techniques: The design relies on Flexbox and grid for fluid layouts, enabling graceful reflow across viewport sizes.
+- responsiveness unites: All spacing and typography and lengths use `rem` unit, media queries use `em` unit, image sizes use `rem` and `%` unit, so the UI responds to changes in viewport size, the root font-size, and user browser settings.
 
 ### Accessibility
 
