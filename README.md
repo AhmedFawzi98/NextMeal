@@ -75,4 +75,4 @@ A landing page that showcases a clean, component-driven UI for NextMeal app (foo
 
 ### JavaScript
 
-JavaScript is used only for a few small interface enhancements: smooth scrolling for anchor links, a password visibility toggle for the form input, basic hamburger menu interactions on smaller screens, and automatic updating of the footer copyright year.
+JavaScript is used only for a few small interface enhancements: smooth scrolling for anchor links, a password visibility toggle for the form input, basic hamburger menu interactions on smaller screens, sticky header and sections revealing on scroll using intersection observer API, and automatic updating of the footer copyright year.

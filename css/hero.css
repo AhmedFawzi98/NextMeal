@@ -2,6 +2,10 @@
     padding: var(--space-6) 0;
     margin-bottom: var(--space-9);
 }
+.sticky .section-hero {
+    margin-top: 8rem;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
