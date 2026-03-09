@@ -47,14 +47,14 @@
 .step-img-box::before {
     width: 60%;
     padding-bottom: 60%;
-    background-color: var(--color-accent-tint-3);
+    background-color: var(--color-primary-tint-5);
     z-index: -2;
 }
 .step-img-box::after {
     width: 40%;
     padding-bottom: 40%;
     z-index: -1;
-    background-color: var(--color-accent-tint-2);
+    background-color: var(--color-primary-tint-3);
 }
 
 @media (max-width: 84em) {

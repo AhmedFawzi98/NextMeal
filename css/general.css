@@ -11,6 +11,7 @@
     --color-primary-tint-3-rgb: 236, 193, 196;
     --color-primary-tint-4: #f0ddde;
     --color-primary-tint-4-rgb: 240, 221, 222;
+    --color-primary-tint-5: #f5ecec;
 
     --color-accent: #e6c89c;
     --color-accent-shade-1: #c4a979;
@@ -180,6 +181,7 @@ a:visited {
     flex-direction: column;
     gap: var(--space-6);
     border-radius: var(--radius-4);
+    padding-bottom: var(--space-4);
     overflow: hidden;
 }
 
