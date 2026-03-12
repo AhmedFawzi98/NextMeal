@@ -1,6 +1,6 @@
 :root {
     /* COLORS */
-    --color-primary: #ef2130;
+    --color-primary: #e71725;
     --color-primary-rgb: 239, 33, 48;
     --color-primary-shade-1: #c61c27;
     --color-primary-shade-2: #6d1016;
@@ -28,7 +28,7 @@
 
     --color-text: #302121;
     --color-text-muted: #6b5a5a;
-    --color-text-light: #787777;
+    --color-text-light: #706f6f;
     --color-text-on-primary: #ffffff;
 
     /*SHADOWS*/
