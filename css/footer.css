@@ -22,7 +22,7 @@
 .footer-nav-list {
     display: flex;
     flex-direction: column;
-    gap: var(--space-5);
+    gap: var(--space-7);
 }
 
 .footer-nav-link:link,
@@ -65,7 +65,7 @@
 .footer-contact-info {
     display: flex;
     flex-direction: column;
-    gap: var(--space-5);
+    gap: var(--space-7);
 }
 .footer-contact-address {
     line-height: 1.5;
