@@ -67,11 +67,13 @@ A landing page that showcases a clean, component-driven UI for NextMeal app (foo
 
 ### Performance & Optimization
 
-- Optimized images and responsive image sizing.
-- Lazy loading applied to below-the-fold images.
-- Minimal JavaScript usage to keep bundle size small.
-- No external UI libraries, ensuring fast load times and reduced dependencies.
-- Hardware-accelerated transitions for smooth micro-interactions.
+- Optimized images using the WebP format for improved compression and reduced file size compared to traditional JPEG/PNG formats.
+- Responsive images fetching implemented using `srcset` and `sizes`, with multiple image variants generated for large assets (e.g., hero images).  
+  allowing browser to automatically select the most appropriate image resolution based on viewport width and device pixel ratio, avoiding unnecessarily large downloads on smaller screens.
+- Lazy loading applied to below-the-fold images to defer loading until they are needed, reducing initial page load time.
+- Minimal JavaScript usage to keep bundle size small and reduce execution overhead.
+- No external UI libraries, minimizing dependencies and improving load performance.
+- Hardware-accelerated CSS transitions used for smooth micro-interactions without introducing additional JavaScript.
 
 ### JavaScript
 

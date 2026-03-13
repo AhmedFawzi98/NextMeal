@@ -1,8 +1,36 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <title>NextMeal: Eat better every day</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="NextMeal Inc." />
+        <meta
+            name="description"
+            content="NextMeal delivers personalized daily meal plans and fresh chef-crafted meals tailored to your goals, schedule, and taste. Eat healthier without the stress of planning."
+        />
+        <link
+            rel="icon"
+            href="img/logo-and-fav-icon/favicon-16.png"
+            sizes="16x16"
+        />
+        <link
+            rel="icon"
+            href="img/logo-and-fav-icon/favicon-32.png"
+            sizes="32x32"
+        />
+        <link
+            rel="icon"
+            href="img/logo-and-fav-icon/favicon-48.png"
+            sizes="48x48"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="img/logo-and-fav-icon/apple-touch-icon.png"
+            sizes="180x180"
+        />
+        <link rel="manifest" href="manifest.webmanifest" />
+
         <link rel="stylesheet" href="css/general.css" />
         <link rel="stylesheet" href="css/header.css" />
         <link rel="stylesheet" href="css/hero.css" />
@@ -20,15 +48,13 @@
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
             rel="stylesheet"
         />
-        <title>NextMeal</title>
-        <link rel="icon" href="/img/logo-and-fav-icon/fav.png" />
-        <script defer src="/js/script.js"></script>
+        <script defer src="js/script.js"></script>
     </head>
     <body>
         <header class="section-header">
             <a href="#" class="header-logo-link">
                 <img
-                    src="/img/logo-and-fav-icon/logo.png"
+                    src="img/logo-and-fav-icon/logo.png"
                     alt="nextmeal logo"
                     class="header-logo-img"
                 />
@@ -101,7 +127,15 @@
                 <div class="hero">
                     <div class="hero-img-container">
                         <img
-                            src="/img/hero/hero-image.png"
+                            srcset="
+                                img/hero/hero-image-500.webp   500w,
+                                img/hero/hero-image-1000.webp 1000w,
+                                img/hero/hero-image-1300.webp 1300w
+                            "
+                            sizes="(max-width: 544px) 250px,
+                                (max-width: 1200px) 500px,
+                                600px"
+                            src="img/hero/hero-image-1000.webp"
                             alt="image of food"
                             class="hero-img"
                         />
@@ -125,27 +159,27 @@
                             <div class="customers-images">
                                 <img
                                     class="customer-img"
-                                    src="/img/people/customers/customer-1.jpg"
+                                    src="img/people/customers/customer-1.jpg"
                                     alt="customer photo"
                                 />
                                 <img
-                                    src="/img/people/customers/customer-2.jpg"
+                                    src="img/people/customers/customer-2.jpg"
                                     alt="customer photo"
                                 />
                                 <img
-                                    src="/img/people/customers/customer-3.jpg"
+                                    src="img/people/customers/customer-3.jpg"
                                     alt="customer photo"
                                 />
                                 <img
-                                    src="/img/people/customers/customer-4.jpg"
+                                    src="img/people/customers/customer-4.jpg"
                                     alt="customer photo"
                                 />
                                 <img
-                                    src="/img/people/customers/customer-5.jpg"
+                                    src="img/people/customers/customer-5.jpg"
                                     alt="customer photo"
                                 />
                                 <img
-                                    src="/img/people/customers/customer-6.jpg"
+                                    src="img/people/customers/customer-6.jpg"
                                     alt="customer photo"
                                 />
                             </div>
@@ -165,31 +199,31 @@
                     <ul class="featured-in-logos-list">
                         <li>
                             <img
-                                src="/img/featured-in-logos/forbes.png"
+                                src="img/featured-in-logos/forbes.png"
                                 alt="forbes logo"
                             />
                         </li>
                         <li>
                             <img
-                                src="/img/featured-in-logos/business-insider.png"
+                                src="img/featured-in-logos/business-insider.png"
                                 alt="business insider logo"
                             />
                         </li>
                         <li>
                             <img
-                                src="/img/featured-in-logos/the-new-york-times.png"
+                                src="img/featured-in-logos/the-new-york-times.png"
                                 alt="the new york times logo"
                             />
                         </li>
                         <li>
                             <img
-                                src="/img/featured-in-logos/techcrunch.png"
+                                src="img/featured-in-logos/techcrunch.png"
                                 alt="techcrunch logo"
                             />
                         </li>
                         <li>
                             <img
-                                src="/img/featured-in-logos/usa-today.png"
+                                src="img/featured-in-logos/usa-today.png"
                                 alt="usa today logo"
                             />
                         </li>
@@ -217,14 +251,14 @@
                         <div class="step-img-box">
                             <img
                                 class="step-img"
-                                src="/img/mobile-app/app-screen-1.png"
+                                src="img/mobile-app/app-screen-1.webp"
                                 alt="iphone app main screen"
                             />
                         </div>
                         <div class="step-img-box">
                             <img
                                 class="step-img"
-                                src="/img/mobile-app/app-screen-2.png"
+                                src="img/mobile-app/app-screen-2.webp"
                                 alt="iphone app meal screen"
                             />
                         </div>
@@ -254,7 +288,7 @@
                         <div class="step-img-box">
                             <img
                                 class="step-img"
-                                src="/img/mobile-app/app-screen-3.png"
+                                src="img/mobile-app/app-screen-3.webp"
                                 alt="iphone app delivery screen"
                             />
                         </div>
@@ -430,7 +464,7 @@
                         </article>
                         <article class="meal card hover-lift">
                             <img
-                                src="/img/meals/meal-1.jpg"
+                                src="img/meals/meal-1.webp"
                                 alt="grilled steak"
                                 class="meal-img"
                                 loading="lazy"
@@ -513,7 +547,7 @@
                         </article>
                         <article class="meal card hover-lift">
                             <img
-                                src="/img/meals/meal-2.jpg"
+                                src="img/meals/meal-2.webp"
                                 alt="charcuterie board"
                                 class="meal-img"
                                 loading="lazy"
@@ -609,7 +643,7 @@
                             <figure class="card">
                                 <img
                                     class="testemonial-img"
-                                    src="/img/people/testemonials/tesetemonial-person-1.jpg"
+                                    src="img/people/testemonials/tesetemonial-person-1.jpg"
                                     alt="Photo of testemonial person"
                                 />
                                 <blockquote class="testemonial-text">
@@ -631,7 +665,7 @@
                             <figure class="card">
                                 <img
                                     class="testemonial-img"
-                                    src="/img/people/testemonials/tesetemonial-person-2.jpg"
+                                    src="img/people/testemonials/tesetemonial-person-2.jpg"
                                     alt="Photo of testemonial person"
                                 />
                                 <blockquote class="testemonial-text">
@@ -653,7 +687,7 @@
                             <figure class="card">
                                 <img
                                     class="testemonial-img"
-                                    src="/img/people/testemonials/tesetemonial-person-3.jpg"
+                                    src="img/people/testemonials/tesetemonial-person-3.jpg"
                                     alt="Photo of testemonial person"
                                 />
                                 <blockquote class="testemonial-text">
@@ -675,7 +709,7 @@
                             <figure class="card">
                                 <img
                                     class="testemonial-img"
-                                    src="/img/people/testemonials/tesetemonial-person-4.jpg"
+                                    src="img/people/testemonials/tesetemonial-person-4.jpg"
                                     alt="Photo of testemonial person"
                                 />
                                 <blockquote class="testemonial-text">
@@ -1141,7 +1175,7 @@
                         </p>
                         <form
                             class="cta-form"
-                            action="/ok"
+                            action=""
                             method="post"
                             novalidate
                         >

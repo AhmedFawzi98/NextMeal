@@ -49,7 +49,7 @@
             rgba(var(--color-primary-tint-3-rgb), 0.25),
             rgba(var(--color-primary-tint-4-rgb), 0.25)
         ),
-        url(../img/call-to-action/cta-img.jpg);
+        url(../img/call-to-action/cta-img.webp);
     background-size: cover;
     background-position: center;
 }
