@@ -63,11 +63,6 @@
     font-size: var(--fs-5);
 }
 
-.cta-form *:focus-visible {
-    outline: 2px solid var(--color-white);
-    outline-offset: 2px;
-}
-
 .cta-form .form-actions {
     margin-top: var(--space-5);
     grid-column: 1/-1;
