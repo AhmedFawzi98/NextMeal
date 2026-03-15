@@ -57,7 +57,16 @@ A landing page that showcases a clean, component-driven UI for NextMeal app (foo
 
 ### Accessibility
 
-- HTML elements use clear focus states and ARIA attributes where required. Color contrast and semantic markup were considered during design also to enhance accessibility
+Basic accessibility practices were applied throughout the project to improve usability with assistive technologies and keyboard navigation:
+
+- Semantic HTML structure was used to provide meaningful page landmarks.
+- Accessible names were ensured for interactive elements. Icon-only buttons include aria-label, and decorative SVG icons are hidden from screen  
+  readers using aria-hidden="true".
+- ARIA attributes were added where necessary, such as aria-expanded and aria-controls for the mobile navigation toggle, and dynamically set
+  aria-label for current state of toggle password button.
+- Forms include proper labels and autocomplete attributes to improve accessibility and browser-assisted input.
+- Keyboard accessibility relies on native interactive elements (button, a, input, select) so keyboard navigation works naturally.
+- Color contrast and readable focus states were considered to maintain visibility and clarity for all users.
 
 ### Micro-Interactions
 
