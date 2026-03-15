@@ -7,8 +7,16 @@ const togglePasswordBtn = document.querySelector(".toggle-password");
 
 togglePasswordBtn.addEventListener("click", () => {
     const isPassword = input.type === "password";
-    input.type = isPassword ? "text" : "password";
+    let ariaLabelValue;
+    if (isPassword) {
+        input.type = "text";
+        ariaLabelValue = "Hide password";
+    } else {
+        input.type = "password";
+        ariaLabelValue = "Show password";
+    }
     togglePasswordBtn.classList.toggle("is-visible");
+    togglePasswordBtn.setAttribute("aria-label", ariaLabelValue);
 });
 
 // ============================================================================
@@ -28,6 +36,12 @@ const colorPrimary = getComputedStyle(
 // Toggle hamburger menu open/close state
 toggleHamburgerMenuBtn.addEventListener("click", () => {
     header.classList.toggle("nav-open");
+    const isExpanded = header.classList.contains("nav-open");
+    toggleHamburgerMenuBtn.setAttribute(
+        "aria-expanded",
+        isExpanded ? "true" : "false",
+    );
+
     if (navCTA.classList.contains("nav-cta")) {
         navCTA.classList.remove("nav-cta");
         navCTA.classList.add("btn", "btn-cta-primary");
@@ -43,6 +57,7 @@ toggleHamburgerMenuBtn.addEventListener("click", () => {
 headerNavLinks.forEach((headerNavLink) => {
     headerNavLink.addEventListener("click", () => {
         header.classList.remove("nav-open");
+        toggleHamburgerMenuBtn.setAttribute("aria-expanded", "false");
     });
 });
 

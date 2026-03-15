@@ -63,7 +63,7 @@
                 />
             </a>
 
-            <nav class="header-nav">
+            <nav class="header-nav" id="header-nav">
                 <ul class="header-nav-list">
                     <li>
                         <a class="header-nav-link" href="#section-how"
@@ -94,7 +94,12 @@
                     </li>
                 </ul>
             </nav>
-            <button class="toggle-hamburger" aria-label="Toggle humbrger menu">
+            <button
+                class="toggle-hamburger"
+                aria-label="Toggle navigation menu"
+                aria-controls="header-nav"
+                aria-expanded="false"
+            >
                 <svg
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -241,7 +246,7 @@
                     </h2>
                     <div class="how-content grid grid-2-cols">
                         <div class="step-text">
-                            <p class="step-title">step 1</p>
+                            <p class="step-title">Step 1</p>
                             <h3 class="heading-tertiary">Open the app</h3>
                             <p class="step-description">
                                 Install the app in seconds, available on iOS and
@@ -267,7 +272,7 @@
                         </div>
 
                         <div class="step-text">
-                            <p class="step-title">step 2</p>
+                            <p class="step-title">Step 2</p>
                             <h3 class="heading-tertiary">Plan your meals</h3>
                             <p class="step-description">
                                 Select your favorite dishes, customize
@@ -278,7 +283,7 @@
                             </p>
                         </div>
                         <div class="step-text">
-                            <p class="step-title">step 3</p>
+                            <p class="step-title">Step 3</p>
                             <h3 class="heading-tertiary">Recieve the meals!</h3>
                             <p class="step-description">
                                 Sit back while our partners prepare your meals
@@ -1191,6 +1196,7 @@
                                     class="form-control"
                                     placeholder="Ahmed Fawzi"
                                     required
+                                    autocomplete="name"
                                 />
                             </div>
 
@@ -1203,6 +1209,7 @@
                                     class="form-control"
                                     placeholder="ahmedfawzielarabi98@gmail.com"
                                     required
+                                    autocomplete="email"
                                 />
                             </div>
 
@@ -1215,11 +1222,12 @@
                                         name="password"
                                         class="form-control"
                                         required
+                                        autocomplete="new-password"
                                     />
                                     <button
                                         type="button"
                                         class="toggle-password"
-                                        aria-label="Toggle password visibility"
+                                        aria-label="Show password"
                                     >
                                         <svg
                                             aria-hidden="true"
@@ -1267,6 +1275,7 @@
                                 <select
                                     id="referral-source"
                                     class="form-control"
+                                    name="referral-source"
                                 >
                                     <option value="">
                                         Choose referral source
