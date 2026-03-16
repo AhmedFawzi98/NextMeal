@@ -118,27 +118,32 @@ sectionsRevelaedOnScroll.forEach(function (section) {
 });
 
 // ============================================================================
-// SMOOTH SCROLLING
+// SMOOTH SCROLLING (with Event Delegation)
 // ============================================================================
-const allLinks = document.querySelectorAll("a:link");
-allLinks.forEach((link) => {
-    link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const href = link.getAttribute("href");
-        if (href === "#") {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-            });
-        } else if (href !== "#" && href.startsWith("#")) {
-            const section = document.querySelector(href);
-            section.scrollIntoView({
-                behavior: "smooth",
-            });
-        }
-    });
-});
+const nav = document.querySelector("nav");
+const footer = document.querySelector("footer");
 
+nav.addEventListener("click", handleSmoothScrolling);
+footer.addEventListener("click", handleSmoothScrolling);
+
+function handleSmoothScrolling(e) {
+    if (!e.target.closest("a")) return;
+
+    e.preventDefault();
+
+    const href = e.target.getAttribute("href");
+    if (href === "#") {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    } else if (href !== "#" && href.startsWith("#")) {
+        const section = document.querySelector(href);
+        section.scrollIntoView({
+            behavior: "smooth",
+        });
+    }
+}
 // ============================================================================
 // FOOTER - UPDATE COPYRIGHT YEAR
 // ============================================================================
