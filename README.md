@@ -2,6 +2,8 @@
 
 ## Live Demo
 
+[Visit NextMeal Live](https://nextmealapp.netlify.app/)
+
 ---
 
 ## About NextMeal
