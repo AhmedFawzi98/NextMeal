@@ -87,3 +87,9 @@ Basic accessibility practices were applied throughout the project to improve usa
 ### JavaScript
 
 JavaScript is used only for a few small interface enhancements: smooth scrolling for anchor links, a password visibility toggle for the form input, basic hamburger menu interactions on smaller screens, sticky header and sections revealing on scroll using intersection observer API, and automatic updating of the footer copyright year.
+
+### Build & Bundling
+
+- **npm & Parcel**: The project uses npm with Parcel as the bundler to bundle and minify both JavaScript and CSS for production-ready output.
+- **dist folder**: The `dist` folder is intentionally included in the repository (excluded from `.gitignore`) as a reference for the built output.
+
